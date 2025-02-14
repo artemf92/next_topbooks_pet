@@ -11,6 +11,6 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@v5
       with:
-        name: docker.pkg.github.com/artemf92/next_topbooks_pet/next_topbooks_pet
+        name: docker.pkg.github.com/artemf92/next_topbooks_pet/top-app
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
