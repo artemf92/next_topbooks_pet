@@ -1,0 +1,106 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+.wrapper {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-rows: minmax(50px, auto);
+  grid-template-areas: 
+    "icon title"
+    "icon description";
+  gap: 10px 40px;
+  justify-items: start;
+  margin-bottom: 30px;
+}
+
+.icon {
+  grid-area: icon;
+  margin-top: -12px;  
+}
+
+.itemTitle {
+  grid-area: title;
+  font-weight: bold;
+}
+
+.text {
+  grid-area: description;
+  position: relative;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+}
+
+.seoText {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+}
+
+.seoText p {
+  margin-bottom: 20px;
+}
+
+.seoText h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 20px 0;
+}
+
+.seoText h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.seoText h4 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.seoText ul, .seoText ol {
+  padding-left: 20px;
+}
+
+.seoText li {
+  margin-bottom: 15px;
+}
+
+.text::before {
+  content: '';
+  width: 1px;
+  background-color: var(--color-gray-light);
+  height: 80%;
+  position: absolute;
+  top: 8px;
+  left: -67px;
+}
+
+.result {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media screen and (width <= 480px) {
+  .item {
+    grid-template-areas: 
+      "icon title"
+      "description description";
+    gap: 15px 20px;
+    margin-bottom: 80px;
+  }
+
+  .icon {
+    margin-top: 0;
+  }
+}

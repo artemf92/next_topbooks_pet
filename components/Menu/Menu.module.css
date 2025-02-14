@@ -1,0 +1,91 @@
+.menu {
+  padding: 15px 0;
+}
+
+.firstLevelMenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.firstLevelMenuItem {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray-dark);
+  margin-bottom: 20px;
+}
+
+.firstLevelMenuItemActive > a,
+.firstLevelMenuItem:hover > a {
+  color: var(--color-primary)
+}
+
+.firstLevelMenuItemLink {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.firstLevelMenuItemActive .firstLevelMenuItemLink {
+  color: var(--color-primary);
+}
+
+.secondLevelMenu {
+  display: none;
+  padding: 8px 0 8px 32px;
+  margin: 14px 0 14px 12px;
+  border-left: 1px solid #DFDFDF;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.secondLevelMenuName {
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.secondLevelMenuActive {
+  display: block;
+}
+
+.secondLevelMenuItem > div {
+  cursor: pointer;
+}
+
+.thirdLevelMenu {
+  padding: 12px 0;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: none;
+  display: none;
+}
+
+.thirdLevelMenuItem {
+  margin-bottom: 10px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.thirdLevelMenuItem a {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.thirdLevelMenuItem:hover {
+  color: var(--color-primary);
+}
+
+.thirdLevelMenuItemCurrent {
+  color: var(--color-primary);
+}
+
+.thirdLevelMenuOpened {
+  display: block;
+}

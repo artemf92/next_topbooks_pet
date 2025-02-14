@@ -1,0 +1,32 @@
+
+.star:not(:last-child) {
+  margin-right: 5px;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.filled {
+  fill: var(--color-primary);
+}
+
+.error {
+  stroke: var(--color-red);
+}
+
+.ratingWrapper {
+  position: relative;
+  align-self: center;
+}
+
+.errorText {
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 10px);
+  font-size: 9px;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  color: var(--color-red);
+  white-space: nowrap;
+}

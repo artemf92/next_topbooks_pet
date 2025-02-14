@@ -1,0 +1,22 @@
+.sidebar {
+  padding: 32px 0;
+  grid-area: sidebar;
+  display: grid;
+  gap: 20px;
+  align-content: start;
+  overflow: hidden;
+}
+
+.logo {
+  transition: opacity .4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+@media screen and (width <= 768px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,92 @@
+/* [project]/app/page.module.css [app-client] (css) */
+.page-module__E0kJGG__page {
+}
+
+@media (prefers-color-scheme: dark) {
+  .page-module__E0kJGG__page {
+  }
+}
+
+.page-module__E0kJGG__main {
+}
+
+.page-module__E0kJGG__footer {
+}
+
+@media (hover: hover) and (pointer: fine) {
+  
+}
+
+@media (width <= 600px) {
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+
+/* [project]/app/components/Htag/Htag.module.css [app-client] (css) */
+.Htag-module__MCcWrq__h1 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.Htag-module__MCcWrq__h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Htag-module__MCcWrq__h3 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
+/* [project]/app/components/Button/Button.module.css [app-client] (css) */
+.Button-module__SBF53G__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 10px;
+  transition: all .4s cubic-bezier(.445, .05, .55, .95);
+  border-radius: 5px;
+  outline: none;
+  min-width: 148px;
+  cursor: pointer;
+  border: 1px solid #0000;
+}
+
+.Button-module__SBF53G__primary {
+  background-color: var(--color-primary);
+}
+
+.Button-module__SBF53G__primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.Button-module__SBF53G__outline {
+  background-color: #0000;
+  border: 1px solid var(--color-primary);
+  color: var(--color-black);
+}
+
+.Button-module__SBF53G__outline:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-white);
+}
+
+.Button-module__SBF53G__default {
+  background-color: #0000;
+  color: var(--color-black);
+}
+
+.Button-module__SBF53G__default:hover {
+  border: 1px solid var(--color-primary);
+}
+
+
+/*# sourceMappingURL=app_368476._.css.map*/

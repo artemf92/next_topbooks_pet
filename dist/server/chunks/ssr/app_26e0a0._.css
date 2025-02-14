@@ -1,0 +1,49 @@
+/* [project]/app/page.module.css [app-client] (css) */
+.page-module__E0kJGG__page {
+}
+
+@media (prefers-color-scheme: dark) {
+  .page-module__E0kJGG__page {
+  }
+}
+
+.page-module__E0kJGG__main {
+}
+
+.page-module__E0kJGG__footer {
+}
+
+@media (hover: hover) and (pointer: fine) {
+  
+}
+
+@media (width <= 600px) {
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+
+/* [project]/app/components/Htag/Htag.module.css [app-client] (css) */
+.Htag-module__MCcWrq__h1 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.Htag-module__MCcWrq__h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Htag-module__MCcWrq__h3 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
+/*# sourceMappingURL=app_26e0a0._.css.map*/

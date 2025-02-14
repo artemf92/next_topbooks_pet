@@ -1,0 +1,13 @@
+.wrap {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

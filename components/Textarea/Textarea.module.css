@@ -1,0 +1,41 @@
+.textarea {
+  display: block;
+  width: 100%;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  outline-color: var(--color-primary);
+  box-shadow: 0 4px 4px 0 var(--box-shadow);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.textarea::placeholder {
+  color: var(--color-gray);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.fieldTextarea {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.error {
+  border: 1px solid var(--color-red);
+  outline-color: var(--color-red);
+}
+
+.errorText {
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 10px);
+  font-size: 9px;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  color: var(--color-red);
+  white-space: nowrap;
+}

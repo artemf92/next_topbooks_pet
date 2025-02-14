@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/page.module.css"],"sourcesContent":[".page {\n}\n\n@media (prefers-color-scheme: dark) {\n  .page {\n  }\n}\n\n.main {\n}\n\n\n.footer {\n}\n\n/* Enable hover only on non-touch devices */\n@media (hover: hover) and (pointer: fine) {\n}\n\n@media (width <= 600px) {\n}\n\n@media (prefers-color-scheme: dark) {\n}\n"],"names":[],"mappings":"AAAA;;;AAGA;EACE;;;;AAIF;;;AAIA;;;AAIA;;;;AAGA;;;;AAGA"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

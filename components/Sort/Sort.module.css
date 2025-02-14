@@ -1,0 +1,35 @@
+.sort {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, auto);
+  justify-items: end;
+}
+
+.item {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px;
+  align-items: baseline;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.item .icon {
+  display: none;
+}
+
+.active {
+  grid-template-columns: 20px 1fr;
+}
+
+.active .icon {
+  display: block;
+}
+
+@media screen and (width <= 1024px) {
+  .sort {
+    justify-items: start;
+  }
+}
